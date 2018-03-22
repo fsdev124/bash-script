@@ -1,0 +1,13 @@
+flags: {}
+
+extra-package-dbs: []
+
+packages:
+  - location: .
+
+resolver: lts-9.1
+
+nix:
+    packages: [gmp,git]
+extra-deps:
+  - universum-0.8.0
